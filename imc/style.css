@@ -9,7 +9,7 @@ main {
 .container {
     display: flex;
     flex-direction: column;
-    background-color: rgb( 70, 142, 236);
+    background: rgb( 70, 142, 236);
     width: 400px;
     height: 600px;
     align-items: center;
