@@ -13,13 +13,8 @@ const changeColor = () => {
     nextIndex();
 }
 
-const nextIndex = () => {
-    if(colorIndex < 2) {
-        colorIndex++
-    }else {
-        colorIndex = 0;
-    }
-}
+const nextIndex = () => colorIndex = colorIndex < 2 ? ++colorIndex : 0; //Condocional ternária
+
 
 const turnOn = {
     "red" : () => img.src = "./img/vermelho.png",
