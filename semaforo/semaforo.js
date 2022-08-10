@@ -10,6 +10,15 @@ const changeColor = () => {
     const colors = ["red", "yellow", "green"];
     const color = colors[colorIndex];
     turnOn[color]();
+    nextIndex();
+}
+
+const nextIndex = () => {
+    if(colorIndex < 2) {
+        colorIndex++
+    }else {
+        colorIndex = 0;
+    }
 }
 
 const turnOn = {
