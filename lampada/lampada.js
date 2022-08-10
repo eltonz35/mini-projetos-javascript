@@ -5,3 +5,5 @@ const lamp = document.getElementById("lamp");
 function lampOn() {
     lamp.src = "./img/ligada.jpg";
 }
+
+turnOn.addEventListener("click", lampOn);
