@@ -1,8 +1,10 @@
 const img = document.getElementById("img");
 const buttons = document.getElementById("buttons");
 let colorIndex = 0;
+let intervalId = null;
 
 const trafficLight = () => {
+    stopAutomatic();
     turnOn[event.target.id]();
 }
 
@@ -15,12 +17,16 @@ const changeColor = () => {
 
 const nextIndex = () => colorIndex = colorIndex < 2 ? ++colorIndex : 0; //Condocional ternária
 
+const stopAutomatic = () => {
+    clearInterval (intervalId);
+}
+
 
 const turnOn = {
     "red" : () => img.src = "./img/vermelho.png",
     "yellow" : () => img.src = "./img/amarelo.png",
     "green" : () => img.src = "./img/verde.png",
-    "automatic" : () => setInterval(changeColor, 1000)
+    "automatic" : () => intervalId = setInterval(changeColor, 1000)
 }
 
 buttons.addEventListener("click", trafficLight);
