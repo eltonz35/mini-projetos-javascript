@@ -1,5 +1,6 @@
 const img = document.getElementById("img");
 const buttons = document.getElementById("buttons");
+let colorIndex = 0;
 
 const trafficLight = () => {
     turnOn[event.target.id]();
