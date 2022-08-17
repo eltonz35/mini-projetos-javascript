@@ -12,7 +12,13 @@ const images = [
 const container = document.querySelector("#container-itens");
 
 const loadImagens = (images, container) => { // Function carregamento imagens
-
+    images.forEach(image => {// Percorrer imagens
+        container.innerHTML += `
+            <div class="item">
+                <img src="${image.url}"
+            </div>    
+        `
+    })
 }
 
 loadImagens(images, container); //Carregamento de imagens
