@@ -9,3 +9,11 @@ aside {
     z-index: 999;
     display: flex;
 }
+
+#menu-opener {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+}
