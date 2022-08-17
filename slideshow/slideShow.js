@@ -9,4 +9,8 @@ const images = [
     {"id": "6", "url": "./img/ippo.jpg" }
 ]
 
+const loadImagens = (images) => { // Function carregamento imagens
+    
+}
+
 loadImagens(images); //Carregamento de imagens
