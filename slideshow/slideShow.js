@@ -9,8 +9,10 @@ const images = [
     {"id": "6", "url": "./img/ippo.jpg" }
 ]
 
-const loadImagens = (images) => { // Function carregamento imagens
-    
+const container = document.querySelector("#container-itens");
+
+const loadImagens = (images, container) => { // Function carregamento imagens
+
 }
 
-loadImagens(images); //Carregamento de imagens
+loadImagens(images, container); //Carregamento de imagens
