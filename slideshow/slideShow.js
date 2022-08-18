@@ -29,3 +29,5 @@ const previus = () => {// Função que movimenta as imagens, enviando o primeiro
     containeritems.appendChild(items[0]); 
     items = document.querySelectorAll(".item");
 }
+
+document.querySelector("#previus").addEventListener("click", previus);
