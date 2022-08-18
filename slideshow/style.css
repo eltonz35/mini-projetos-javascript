@@ -20,7 +20,7 @@
     width: 50vw;
     height: 50vh;
     border-radius: 10px;
-    overflow: hidden;
+    overflow: hidden; /*remove as imagens da lista, deixando só a central*/
 }
 
 .item {
