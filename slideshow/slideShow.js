@@ -36,5 +36,5 @@ const next = () => {// Oposta da previus, tras o ultimo item pro inicio.
     items = document.querySelectorAll(".item");
 }
 
-document.querySelector("#previus").addEventListener("click", previus);
-document.querySelector("#next").addEventListener("click", next);
+document.querySelector("#previus").addEventListener("click", next);
+document.querySelector("#next").addEventListener("click", previus);
