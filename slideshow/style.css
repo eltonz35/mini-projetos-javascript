@@ -11,3 +11,9 @@
     border-radius: 10px;
     box-shadow: 0 20px 30px #000000;
 }
+
+.container-itens {
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+}
