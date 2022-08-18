@@ -29,3 +29,8 @@
     width: 50vw;
     height: 50vh;
 }
+
+.action-button {
+    font: bold 30px sans-serif;
+    z-index: 1;
+}
