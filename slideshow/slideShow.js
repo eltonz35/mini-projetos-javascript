@@ -25,3 +25,7 @@ loadImagens(images, containeritems); //Carregamento de imagens
 
 let items = document.querySelectorAll(".item"); //Pega todos as imagens
 
+const previus = () => {// Função que movimenta as imagens, enviando o primeiro item pro final.
+    containeritems.appendChild(items[0]); 
+    items = document.querySelectorAll(".item");
+}
