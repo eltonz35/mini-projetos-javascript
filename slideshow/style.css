@@ -4,13 +4,14 @@
 }
 
 .container-slide{
-    display: flex;
-    width: 50vw;
-    height: 50vh;
     background-color: #000000;
-    margin: 20vh auto;
     border-radius: 10px;
     box-shadow: 0 20px 30px #000000;
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+    margin: 20vh auto;
+    width: 50vw;
 }
 
 .container-itens {
