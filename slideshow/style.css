@@ -42,3 +42,11 @@
     width: 50px;
     z-index: 1;
 }
+
+.action-button:hover {
+    color: #FFF;
+    background-color: #00000055;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
