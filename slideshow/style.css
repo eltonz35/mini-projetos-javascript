@@ -33,6 +33,12 @@
 }
 
 .action-button {
+    align-items: center;
+    color: #00000000;
+    display: flex;
     font: bold 30px sans-serif;
+    justify-content: center;
+    user-select: none;
+    width: 50px;
     z-index: 1;
 }
