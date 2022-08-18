@@ -4,6 +4,7 @@
 }
 
 .container-slide{
+    display: flex;
     width: 50vw;
     height: 50vh;
     background-color: #000000;
