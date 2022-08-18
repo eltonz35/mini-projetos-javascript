@@ -9,7 +9,7 @@ const images = [
     {"id": "6", "url": "./img/ippo.png" }
 ]
 
-const container = document.querySelector("#container-itens");
+const containeritems = document.querySelector("#container-itens");
 
 const loadImagens = (images, container) => { // Function carregamento imagens
     images.forEach(image => {// Percorrer imagens
@@ -21,6 +21,7 @@ const loadImagens = (images, container) => { // Function carregamento imagens
     })
 }
 
-loadImagens(images, container); //Carregamento de imagens
+loadImagens(images, containeritems); //Carregamento de imagens
 
 let items = document.querySelectorAll(".item"); //Pega todos as imagens
+
