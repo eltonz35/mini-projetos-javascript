@@ -22,3 +22,5 @@ const loadImagens = (images, container) => { // Function carregamento imagens
 }
 
 loadImagens(images, container); //Carregamento de imagens
+
+let items = document.querySelectorAll(".item"); 
