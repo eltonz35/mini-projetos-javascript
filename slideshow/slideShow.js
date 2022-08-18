@@ -6,7 +6,7 @@ const images = [
     {"id": "3", "url": "./img/tenchi.jpg" },
     {"id": "4", "url": "./img/tenjhotenge.jpg" },
     {"id": "5", "url": "./img/yuyuhakusho.jpg" },
-    {"id": "6", "url": "./img/ippo.jpg" }
+    {"id": "6", "url": "./img/ippo.png" }
 ]
 
 const container = document.querySelector("#container-itens");
