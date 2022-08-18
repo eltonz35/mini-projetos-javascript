@@ -20,11 +20,16 @@
     width: 50vw;
     height: 50vh;
     border-radius: 10px;
+    transition: all 0.5s;
 }
 
 .item {
     width: 50vw;
     height: 50vh;
+}
+
+.item:first-child {
+    margin-left: -100%;
 }
 
 .item img {
