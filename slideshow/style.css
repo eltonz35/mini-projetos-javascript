@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-slide{
+    width: 50vw;
+    height: 50vh;
+    background-color: #000000;
+    margin: 20vh auto;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px #000000;
+}
