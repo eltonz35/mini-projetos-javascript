@@ -12,6 +12,11 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 .title {
     color: #ffcc00;
     margin: 20vh auto;
