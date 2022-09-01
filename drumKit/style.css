@@ -28,7 +28,6 @@ main {
 
 .container {
     align-items: center;
-    background-color: #ffffff;
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
