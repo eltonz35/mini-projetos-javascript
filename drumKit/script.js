@@ -21,3 +21,5 @@ const criarDiv = (texto) => {
 }
 
 const exibir = (sons) => Object.keys(sons).forEach(criarDiv);
+
+exibir(sons);
