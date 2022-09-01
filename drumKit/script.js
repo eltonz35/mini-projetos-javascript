@@ -29,7 +29,10 @@ const tocarSom = (letra) => {
 
 const ativarDiv = (evento) => {
     const letra = evento.target.id;
-    tocarSom(letra);
+    const letraPermitida = sons.hasOwnProperty(letra);
+    if(letraPermitida) {
+        tocarSom(letra);
+    }
 }
 
 exibir(sons);
