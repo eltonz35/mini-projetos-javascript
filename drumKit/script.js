@@ -33,3 +33,4 @@ const ativarDiv = (evento) => {
 }
 
 exibir(sons);
+document.getElementById("container").addEventListener("click", ativarDiv);
