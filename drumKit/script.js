@@ -22,4 +22,9 @@ const criarDiv = (texto) => {
 
 const exibir = (sons) => Object.keys(sons).forEach(criarDiv);
 
+const ativarDiv = (evento) => {
+    const letra = evento.target.id;
+    tocarSom(letra);
+}
+
 exibir(sons);
