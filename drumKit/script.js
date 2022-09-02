@@ -27,10 +27,13 @@ const tocarSom = (letra) => {
     audio.play();
 }
 
+const adicionarEfeito = (letra) => document.getElementById(letra).classList.add("active");
+
 const ativarDiv = (evento) => {
     const letra = evento.target.id;
     const letraPermitida = sons.hasOwnProperty(letra);
     if(letraPermitida) {
+        adicionarEfeito(letra);
         tocarSom(letra);
     }
 }
