@@ -48,6 +48,12 @@ main {
     height: 100px;
     justify-content: center;
     user-select: none;
+    transition: transform .2s;
     width: 100px;
 }
 
+.active {
+    border-color: #ffcc00;
+    box-shadow: 0 0 50px #ffcc00;
+    transform: scale(1.3);
+}
