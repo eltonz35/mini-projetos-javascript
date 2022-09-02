@@ -40,7 +40,7 @@ const ativarDiv = (evento) => {
     if(evento.type == "click") {
         letra = evento.target.id;
     }else {
-        letra = evento.keys.toUpperCase();
+        letra = evento.key.toUpperCase();
     }
 
     const letraPermitida = sons.hasOwnProperty(letra);
@@ -53,3 +53,4 @@ const ativarDiv = (evento) => {
 
 exibir(sons);
 document.getElementById("container").addEventListener("click", ativarDiv);
+window.addEventListener("keydown", ativarDiv);
