@@ -8,3 +8,9 @@ body {
     background-color: #f5f5f5;
     padding: 30px 0;
 }
+
+.calculator {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #00000090;
+}
