@@ -14,3 +14,9 @@ body {
     margin: 0 auto;
     background-color: #00000090;
 }
+
+.calculator-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
