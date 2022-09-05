@@ -27,6 +27,7 @@ body {
     color: #ffffff;
     font: normal 4rem serif;
     overflow: hidden;
+    border-radius: 5px;
 }
 
 .calculator-buttons {
@@ -43,4 +44,9 @@ body {
     font-size: 1.5rem;
     outline: none;
     cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;
+    color: yellowgreen;
 }
